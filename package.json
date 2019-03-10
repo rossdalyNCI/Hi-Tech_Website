@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Speaker Website",
   "main": "index.js",
+  "homepage": "https://rossdalyNCI.github.io/Hi-Tech_Website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ross Daly",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
